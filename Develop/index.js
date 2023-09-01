@@ -31,14 +31,15 @@ const questions = ([
         name: 'usage',
     },
     {
-        type: 'input',
-        message: 'What licence are you using',
+        type: 'list',
+        message: 'What licence are you using?',
         name: 'licence',
+        choices: ['MIT', 'Apache-2.0', 'CECILL-2.1', 'none'],
     },
     {
         type: 'input',
-        message: 'Did anyone contributed to your project',
-        name: 'contributing',
+        message: 'Add contributors to your project, if any',
+        name: 'contributors',
     },
     {
         type: 'input',
@@ -47,8 +48,13 @@ const questions = ([
     },
     {
         type: 'input',
-        message: 'What is your email?',
-        name: 'questions',
+        message: 'Provide your GitHub link for questions contact',
+        name: 'link',
+    },
+    {
+        type: 'input',
+        message: 'Provide your email',
+        name: 'email',
     }
 ])
     
