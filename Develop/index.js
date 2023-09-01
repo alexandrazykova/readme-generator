@@ -1,10 +1,10 @@
 // packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require("../Develop/utils/generateMarkdown")
+const generateMarkdown = require('../Develop/utils/generateMarkdown')
 
 // an array of questions for user input
-const questions = ([
+const questions = [
     {
         type: 'input',
         message: 'What is the title of your project?',
@@ -32,9 +32,9 @@ const questions = ([
     },
     {
         type: 'list',
-        message: 'What licence are you using?',
-        name: 'licence',
-        choices: ['MIT', 'Apache-2.0', 'CECILL-2.1', 'none'],
+        message: 'What license are you using?',
+        name: 'license',
+        choices: ['MIT', 'Apache-2.0', 'MPL 2.0', 'none'],
     },
     {
         type: 'input',
@@ -48,7 +48,7 @@ const questions = ([
     },
     {
         type: 'input',
-        message: 'Provide your GitHub link for questions contact',
+        message: 'Provide your GitHub link for contact',
         name: 'link',
     },
     {
@@ -56,7 +56,7 @@ const questions = ([
         message: 'Provide your email',
         name: 'email',
     }
-])
+];
     
 const writeToFile = (fileName, data) => {
     fs.writeFile(fileName, data, (err) =>
@@ -68,6 +68,7 @@ const writeToFile = (fileName, data) => {
 function init() { 
     inquirer.prompt(questions).then((response) => {
         console.log(response)
+
         // function to write README file
         writeToFile("README.md", generateMarkdown(response))
     })
