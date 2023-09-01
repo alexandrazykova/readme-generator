@@ -1,26 +1,25 @@
-# 
-
+# Tirle ![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
 
 ## Description
-/ndgkdfgmldfmg
+.
 
 ## Table of Contents
-/nfdfdf dfdfdf dferggg
+.
 
 ## Installation
-/ngdhta
+.
 
-## Usage
-/nyhhn
+## Usage 
+dfd.
 
 ## Licence
-/nUnder  licence.
+MPL 2.0 
 
 ## Contributors
-/nThank you thfgh for your contribution to this project.
+Thank you dgdf for contribution to this project.
 
 ## Tests
-/nfhfg
+dfg.
 
 ## Questions?
-/nYou can reach out on GitHub: https://gist.github.com/alexandrazykova or by email: a@123.com.
+You can reach out on GitHub: dg or by email: dfg.
