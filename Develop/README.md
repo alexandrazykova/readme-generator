@@ -1,7 +1,7 @@
-# title ![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
+# New Project ![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
 
 ## Description
-description.
+Short description here.
 
 ## Table of Contents
 - [Installation](#installation)
