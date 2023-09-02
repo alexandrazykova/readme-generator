@@ -17,12 +17,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Add Table of Content for your project',
-        name: 'tableOfContents',
-    },
-    {
-        type: 'input',
-        message: 'How to install your project?',
+        message: 'Provide installation instructions',
         name: 'installation',
     },
     {
@@ -39,7 +34,7 @@ const questions = [
     {
         type: 'input',
         message: 'Add contributors to your project, if any',
-        name: 'contributors',
+        name: 'contributing',
     },
     {
         type: 'input',
@@ -48,16 +43,16 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Provide your GitHub link for contact',
-        name: 'link',
+        message: 'What is you GitHub username?',
+        name: 'username',
     },
     {
         type: 'input',
-        message: 'Provide your email',
+        message: 'What is your email address?',
         name: 'email',
     }
 ];
-    
+
 const writeToFile = (fileName, data) => {
     fs.writeFile(fileName, data, (err) =>
         err ? console.log(err) : console.log(data)
