@@ -23,4 +23,3 @@ Install required npm packages using your terminal - npm install.
 ## Walkthrough video link
 
 (https://drive.google.com/file/d/1NxLOvXU5EdgJK-kkFMFJ-VWMQ0hCW0p5/view?usp=sharing)
-
