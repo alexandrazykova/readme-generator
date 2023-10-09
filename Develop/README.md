@@ -1,7 +1,7 @@
-# New Project ![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
+# New Project ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description
-Short description here.
+Readme generator for an easy and fast md files.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,19 +12,19 @@ Short description here.
 - [Questions](#questions)
 
 ## Installation
-one two three.
+Clone repo, run node index.js.
 
 ## Usage 
-simple in use.
+open in vs code, node index.js, follow prompts.
 
 ## Licence
-MPL 2.0 [License: MPL 2.0](https://spdx.org/licenses/MPL-2.0.html)
+MIT [License: MIT](https://opensource.org/licenses/MIT)
 
 ## Contributing
-
+n/a
 
 ## Tests
-command line.
+n/a.
 
 ## Questions
 You can reach out on GitHub: https://github.com/alexandrazykova or by email: alexandrazykova1@gmail.com.
